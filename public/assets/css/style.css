@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: "Nunito", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.bg-primary {
+    background-color: #1f2d41 !important;
+}
+
+.text-primary {
+    color: #1f2d41 !important;
+}
+
+.bg-secondary {
+    background-color: #00cfd5 !important;
+}
+
+.text-secondary {
+    color: #00cfd5 !important;
+}
+
+.bg-dark {
+    background-color: #009da2 !important;
+}
+
+.text-dark {
+    background-color: #009da2 !important;
+}
+
+.nav-link:hover {
+    border-bottom-width: thick;
+    border-bottom-color: white;
+}
+
+.masthead {
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+}
+
+.masthead .masthead-heading {
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+}
+
+.masthead .masthead-subheading {
+    font-size: 1.5rem;
+}
+
+.masthead .masthead-avatar {
+    width: 15rem;
+}
+
+.img-profile {
+    width: 15rem;
+    border: 0.5rem solid #009da2;
+}
+
+.divider-custom {
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider-custom .divider-custom-line {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #2c3e50;
+    border-radius: 1rem;
+    border-color: #2c3e50 !important;
+}
+.divider-custom .divider-custom-line:first-child {
+    margin-right: 1rem;
+}
+.divider-custom .divider-custom-line:last-child {
+    margin-left: 1rem;
+}
+.divider-custom .divider-custom-icon {
+    color: #2c3e50 !important;
+    font-size: 2rem;
+}
+.divider-custom.divider-light .divider-custom-line {
+    background-color: #fff;
+}
+.divider-custom.divider-light .divider-custom-icon {
+    color: #fff !important;
+}
+
+.page-section {
+    padding: 6rem 0;
+}
+.page-section .page-section-heading {
+    font-size: 2.25rem;
+    line-height: 2rem;
+}
+
+.card {
+    margin-top: 20px;
+    border-bottom-color: #009da2;
+    border-bottom-width: thick;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #d7f7f8;
+}
+
+.card hr {
+    width: 50px;
+    border-color: #009da2;
+    border-width: 5px;
+}
+
+.card .fas {
+    color: #009da2 !important;
+}
+
+.social .fab {
+    color: #009da2 !important;
+}
+
+.social {
+    padding-top: 20px;
+}
