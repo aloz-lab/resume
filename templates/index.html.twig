@@ -5,7 +5,7 @@
     <header class="masthead bg-primary text-white text-center">
         <div class="container d-flex align-items-center flex-column">
             <!-- Masthead Avatar Image-->
-            <img class="img-fluid img-profile rounded-circle mx-auto mb-5" src="/assets/pictures/Anne_Lozier_carre.jpg" alt="photo" />
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-5" src="/assets/pictures/Anne_Lozier_carre.jpg" alt="photo de profil" />
             <!-- Masthead Heading-->
             <h1 class="masthead-heading text-uppercase mb-0">Anne Lozier</h1>
             <!-- Icon Divider-->
@@ -20,10 +20,10 @@
     </header>
 
     <!-- About Section-->
-    <section class="page-section bg-secondary text-dark mb-0" id="about">
+    <section class="page-section bg-secondary text-primary mb-0" id="about">
         <div class="container">
             <!-- About Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-dark">About</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-primary">A propos</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
@@ -33,35 +33,48 @@
             <!-- About Section Content-->
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <p class="lead mb-4">Après avoir travaillé de nombreuses années dans le domaine de la documentation et de la veille scientifiques, j'ai entamé une reconversion professionnelle en développement web.</p>
+                    <p class="lead mb-5">Après avoir travaillé de nombreuses années dans le domaine de la documentation et de la veille scientifiques,
+                        j'ai entamé une reconversion professionnelle en développement web. Actuellement en formation intensive à la Wild Code School
+                        de Paris, je suis à la recherche d'un stage de 4 mois minimum à partir d'août/septembre.</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 ml-auto">
-                    <h4>Formation</h4>
-                    <p class="lead">Wild Code School - 2020 : Développeur web et web mobile - spécialité PHP / Symfony</p>
-                    <a href="https://www.wildcodeschool.com/fr-FR/formations/developpeur-web" target="_blank">Détails</a>
+                <div class="col-lg-4 ml-auto mt-3">
+                    <h4 class="mb-3">Formation</h4>
+                    <ul>
+                        <li><p class="lead mb-1">Wild Code School - 2020 : Développeur web et web mobile - spécialité PHP / Symfony</p>
+                            <a id="details" class="font-italic" href="https://www.wildcodeschool.com/fr-FR/formations/developpeur-web" target="_blank">Voir la formation</a>
+                        </li>
+                        <li><p class="lead mt-3">UVSQ - 2004/2005 : DESS Information Scientifique et Technique</p></li>
+                    </ul>
                 </div>
-                <div class="col-lg-4 mr-auto">
-                    <h4>Compétences</h4>
-                    <p class="lead">Langages de programmation et outils</p>
-                     <i class="fab fa-php fa-2x mx-2"></i>
-                     <i class="fab fa-symfony fa-2x mx-2"></i>
-                     <i class="fab fa-html5 fa-2x mx-2"></i>
-                     <i class="fab fa-css3-alt fa-2x mx-2"></i>
-                     <i class="fab fa-bootstrap fa-2x mx-2"></i>
-                     <i class="fab fa-git fa-2x mx-2"></i>
-                     <i class="fab fa-github fa-2x mx-2"></i>
-                    <p class="lead mt-3">Workflow</p>
-                    <p><i class="fas fa-check mr-2"></i>Responsive, mobile-first</p>
-                    <p><i class="fas fa-check mr-2"></i>Développement Agile - Scrum</p>
+                <div class="col-lg-4 mr-auto mt-3">
+                    <h4 class="mb-3">Compétences</h4>
+                    <h5>Langages de programmation et outils</h5>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-php fa-2x mx-2"></i>
+                        <li class="list-inline-item"><i class="fab fa-symfony fa-2x mx-2"></i>
+                        <li class="list-inline-item"><i class="fab fa-html5 fa-2x mx-2"></i>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt fa-2x mx-2"></i>
+                        <li class="list-inline-item"><i class="fab fa-bootstrap fa-2x mx-2"></i>
+                        <li class="list-inline-item"><i class="fab fa-git fa-2x mx-2"></i>
+                        <li class="list-inline-item"><i class="fab fa-github fa-2x mx-2"></i>
+                        <li class="list-inline-item"><i class="fab fa-ubuntu fa-2x mx-2"></i>
+                        <li class="list-inline-item font-weight-bolder">mySQL
+                        <li class="list-inline-item font-weight-bolder">Twig
+                    </ul>
+                    <h5 class="mt-4 mb-2">Workflow</h5>
+                    <p class="mb-0"><i class="fas fa-check mr-2"></i>Responsive</p>
+                    <p class="mb-0"><i class="fas fa-check mr-2"></i>Développement Agile - Scrum</p>
+                    <h5 class="mt-4 mb-2">Anglais</h5>
+                    <p><i class="fas fa-check mr-2"></i>Niveau B2/C1 du CECRL</p>
                 </div>
             </div>
             <!-- About Section Button-->
             <div class="text-center mt-4">
-                <a class="btn btn-xl btn-outline-dark" href="">
+                <a class="btn btn-xl btn-outline-dark" href="/assets/CV_Anne_Lozier_DeveloppeurFullstackPHP_light.pdf" target="_blank">
                     <i class="fas fa-download mr-2"></i>
-                    Free Download!
+                    Télécharger mon CV
                 </a>
             </div>
         </div>
@@ -80,16 +93,28 @@
             </div>
             <!-- Project Section Content-->
             <div class="row">
-                <div class="col-md-4 mb-3 mb-md-0">
-                    <div class="card py-4 h-100">
-                        <img src="" class="card-img-top" alt="">
-                        <div class="card-body text-center">
-                            <h6 class="text-uppercase text-dark m-0">Adresse</h6>
-                            <hr class="my-4" />
-                            <div class="text-black-50">17 rue Xaintrailles, 75013 Paris</div>
+                {% for project in projects %}
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <img src="{{ project.picture }}" class="card-img-top border border-dark w-75 mx-auto" alt="{{ project.title }}">
+                            <div class="card-body text-center">
+                                <h6 class="text-uppercase text-primary mt-2">{{ project.title }}</h6>
+                                <hr class="my-4" />
+                                <div class="text-black-50">{{ project.description }}</div>
+                                <div class="text-black-50 my-3">Technos : {{ project.techno }}</div>
+                                {% if not project.link %}
+                                    <div class=""><a class="repo text-primary font-italic" href="{{ project.repo }}" target="_blank">Voir le repo</a></div>
+                                {% elseif not project.repo %}
+                                    <div class=""><a class="site text-primary font-italic" href="{{ project.link }}" target="_blank">Voir le site</a></div>
+                                {% else %}
+                                    <div><a class="mr-5 site text-primary font-italic" href="{{ project.link }}" target="_blank">Voir le site</a>
+                                        <a class="repo text-primary font-italic" href="{{ project.repo }}" target="_blank">Voir le repo</a>
+                                    </div>
+                                {% endif %}
+                            </div>
                         </div>
                     </div>
-                </div>
+                {% endfor %}
             </div>
         </div>
     </section>
@@ -98,21 +123,24 @@
     <section class="page-section bg-secondary text-primary mb-0" id="interets">
         <div class="container">
             <!-- Interests Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-primary">Intérêts</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-primary">Centres d'Intérêts</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fab fa-gg-circle"></i><i class="fas fa-circle"></i><i class="fas fa-star"></i></div>
+                <div class="divider-custom-icon"><i class="fab fa-gg-circle"></i></div>
                 <div class="divider-custom-line"></div>
             </div>
             <!-- Interests Section Content-->
             <div class="row">
                 <div class="col-lg-4 text-center mx-auto mt-4">
                     <p class="lead"><i class="fas fa-camera fa-lg mr-2"></i>Photographie</p>
-                    <p class="lead"><i class="fas fa-running fa-lg mr-2"></i>Trail - Running</p>
-                    <p class="lead"><i class="far fa-shuttlecock fa-lg mr-2"></i>Badminton</p>
+                    <p class="lead"><i class="fas fa-running fa-lg mr-2"></i>Trail - Running (20-50 km)</p>
+                    <p class="lead"><img src="https://img.icons8.com/ios-filled/25/000000/shuttercock.png" class="mr-2" alt="shuttercock">Badminton (classée P10/D7/R6)</p>
                     <p class="lead"><i class="fas fa-hiking fa-lg mr-2"></i>Randonnée - Trekking</p>
-                    <p class="lead"><i class="fas fa-hands-helping fa-lg mr-2"></i>Bénévolat</p>
+                    <p class="lead"><i class="fas fa-hands-helping fa-lg mr-2"></i>
+                        Bénévolat (<a id="compos13" href="https://www.compos13.fr/" target="_blank">Compos'13</a>,
+                        <a id="seuil" href="https://assoseuil.org/" target="_blank">Seuil</a>)
+                    </p>
                 </div>
             </div>
         </div>
@@ -133,10 +161,10 @@
                 <div class="col-md-4 mb-3 mb-md-0">
                     <div class="card py-4 h-100">
                         <div class="card-body text-center">
-                            <i class="fas fa-map-marked-alt text-primary mb-3"></i>
-                            <h6 class="text-uppercase m-0">Adresse</h6>
+                            <i class="fas fa-mobile-alt text-primary mb-3"></i>
+                            <h6 class="text-uppercase m-0">Téléphone</h6>
                             <hr class="my-4" />
-                            <div class="text-black-50">17 rue Xaintrailles, 75013 Paris</div>
+                            <div class="text-black-50">06 66 46 56 85</div>
                         </div>
                     </div>
                 </div>
@@ -146,24 +174,24 @@
                             <i class="fas fa-envelope text-primary mb-3"></i>
                             <h6 class="text-uppercase m-0">Email</h6>
                             <hr class="my-4" />
-                            <div class="text-black-50"><a href="#!">alozier@orange.fr</a></div>
+                            <div class="text-black-50"><a id="mail" href="mailto:alozier@orange.fr">alozier@orange.fr</a></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-3 mb-md-0">
                     <div class="card py-4 h-100">
                         <div class="card-body text-center">
-                            <i class="fas fa-mobile-alt text-primary mb-3"></i>
-                            <h6 class="text-uppercase m-0">Téléphone</h6>
+                            <i class="fas fa-map-marked-alt text-primary mb-3"></i>
+                            <h6 class="text-uppercase m-0">Adresse</h6>
                             <hr class="my-4" />
-                            <div class="text-black-50">06 66 46 56 85</div>
+                            <div class="text-black-50">17 rue Xaintrailles, 75013 Paris</div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="social d-flex justify-content-center mt-4">
-                <a class="mx-2 mt-3" href="https://www.linkedin.com/in/anne-lozier/" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a>
-                <a class="mx-2 mt-3" href="https://github.com/aloz-lab" target="_blank"><i class="fab fa-2x fa-github"></i></a>
+                <a class="mx-3 mt-3" href="https://www.linkedin.com/in/anne-lozier/" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a>
+                <a class="mx-3 mt-3" href="https://github.com/aloz-lab" target="_blank"><i id="github" class="fab fa-2x fa-github"></i></a>
             </div>
         </div>
     </section>

@@ -1,3 +1,4 @@
+/* BODY */
 body {
     margin: 0;
     font-family: "Nunito", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -30,9 +31,35 @@ body {
     background-color: #009da2 !important;
 }
 
-.nav-link:hover {
-    border-bottom-width: thick;
+/* NAVBAR */
+.navbar-brand:hover {
+    font-weight: bold !important;
+}
+
+.navbar-nav a {
+    border: 3px solid #009da2;
+    padding-bottom: 8px !important;
+    padding-top: 8px !important;
+    border-radius: 0px !important;
+}
+
+.navbar-nav a:hover {
+    border-bottom-width: 3px;
     border-bottom-color: white;
+    font-weight: bold;
+}
+
+.navbar-toggler:hover {
+    background-color: #00cfd5 !important;
+}
+
+/* HEADER */
+.page-section {
+    padding: 6rem 0;
+}
+.page-section .page-section-heading {
+    font-size: 2.25rem;
+    line-height: 2rem;
 }
 
 .masthead {
@@ -65,6 +92,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .divider-custom .divider-custom-line {
     width: 100%;
     max-width: 7rem;
@@ -73,31 +101,49 @@ body {
     border-radius: 1rem;
     border-color: #2c3e50 !important;
 }
+
 .divider-custom .divider-custom-line:first-child {
     margin-right: 1rem;
 }
+
 .divider-custom .divider-custom-line:last-child {
     margin-left: 1rem;
 }
+
 .divider-custom .divider-custom-icon {
     color: #2c3e50 !important;
     font-size: 2rem;
 }
+
 .divider-custom.divider-light .divider-custom-line {
     background-color: #fff;
 }
+
 .divider-custom.divider-light .divider-custom-icon {
     color: #fff !important;
 }
 
-.page-section {
-    padding: 6rem 0;
-}
-.page-section .page-section-heading {
-    font-size: 2.25rem;
-    line-height: 2rem;
+/* ABOUT */
+#details {
+    color: #1f2d41;
 }
 
+#details:hover {
+    font-weight: bold;
+}
+
+#mysql {
+    filter: opacity(90%);
+    -webkit-filter: opacity(90%);
+}
+
+#twig {
+    filter: opacity(90%);
+    -webkit-filter: opacity(90%);
+    height: 30px;
+}
+
+/* PROJECTS */
 .card {
     margin-top: 20px;
     border-bottom-color: #009da2;
@@ -118,10 +164,62 @@ body {
     color: #009da2 !important;
 }
 
+.repo {
+    color: #1f2d41;
+}
+
+.repo:hover {
+    font-weight: bold;
+}
+
+.site {
+    color: #1f2d41;
+}
+
+.site:hover {
+    font-weight: bold;
+}
+
+/* INTERESTS */
+#compos13 {
+    color: #1f2d41 !important;
+}
+
+#compos13:hover {
+    font-weight: bold;
+}
+
+#seuil {
+    color: #1f2d41 !important;
+}
+
+#seuil:hover {
+    font-weight: bold;
+}
+
+/* CONTACT */
+#mail {
+    color: gray !important;
+}
+
+#mail:hover {
+    font-weight: bold !important;
+}
+
 .social .fab {
     color: #009da2 !important;
 }
 
 .social {
     padding-top: 20px;
+}
+
+.fa-linkedin:hover, #github:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav a:hover {
+        border-bottom-width: 0px !important;
+    }
 }

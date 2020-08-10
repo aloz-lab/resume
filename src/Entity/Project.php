@@ -32,6 +32,21 @@ class Project
      */
     private $picture;
 
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $techno;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $link;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $repo;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -69,6 +84,42 @@ class Project
     public function setPicture(?string $picture): self
     {
         $this->picture = $picture;
+
+        return $this;
+    }
+
+    public function getTechno(): ?string
+    {
+        return $this->techno;
+    }
+
+    public function setTechno(?string $techno): self
+    {
+        $this->techno = $techno;
+
+        return $this;
+    }
+
+    public function getLink(): ?string
+    {
+        return $this->link;
+    }
+
+    public function setLink(?string $link): self
+    {
+        $this->link = $link;
+
+        return $this;
+    }
+
+    public function getRepo(): ?string
+    {
+        return $this->repo;
+    }
+
+    public function setRepo(?string $repo): self
+    {
+        $this->repo = $repo;
 
         return $this;
     }
